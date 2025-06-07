@@ -1,0 +1,76 @@
+/* Calendario.css
+
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+
+.calendar-container {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 40px; 
+}
+
+
+.calendar {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 1200px; 
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+.weekdays,
+.week {
+  display: flex;
+}
+
+.weekday,
+.day {
+  width: 14.28%; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+.day {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.day:hover {
+  background-color: #007bff;
+  border-radius: 50%;
+}
+
+.today {
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  color: #007bff;
+}
+
+.selected {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+}
+
+.selected-info {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+} */

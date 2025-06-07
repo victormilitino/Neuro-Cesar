@@ -1,0 +1,43 @@
+/* .app-container {
+  min-height: 100vh;
+  width: 100vw;
+} */
+
+/* .SideBar {
+  width: 250px;
+  background: linear-gradient(135deg, #ff6002 0%, #ff8c02 100%);
+  color: #f26522 !important;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+} */
+
+.main-content-agendamento {
+  padding: 20px;
+  background-color: #f0f2f5;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.agendamento-form-section {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 1000px;
+
+  
+}
+
+.agendamento-form-section input {
+  width: 100%;
+  max-width: 100%;
+}
+
+#form-agendamento {
+
+  margin-bottom: 15px;
+}

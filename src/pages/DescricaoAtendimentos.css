@@ -1,0 +1,24 @@
+.CardPerfil {
+
+  background-color: red !important;
+}
+
+.dashboard-container {
+  display: flex;
+  gap: 1rem;
+}
+
+
+
+.card-lateral {
+  width: 700px; 
+  flex-shrink: 0;
+  position: sticky;
+  top: 1rem;
+  align-self: flex-start;
+  height: fit-content;
+}
+
+.comentario-area {
+  flex: 1;
+}

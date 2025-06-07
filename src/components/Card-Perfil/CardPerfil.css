@@ -1,0 +1,55 @@
+/* Card de perfil */
+.profile-card {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #f26522 0%, #ff7c3d 100%);
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.profile-info-card-container {
+  display: flex;
+  justify-content: center;
+}
+.profile-info-card {
+  width: 80%;
+}
+.profile-info p {
+  margin-bottom: 0.75rem;
+}
+
+.profile-info strong {
+  color: #495057;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #000000;
+  background-color: #f26522;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 2px;
+  color: white;
+  transition: all 0.3s ease;
+  border: 2px solid #f26522;
+}
+.icon a:hover {
+  color: #f26522;
+  background-color: white;
+}

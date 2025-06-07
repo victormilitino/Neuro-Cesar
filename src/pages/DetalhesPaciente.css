@@ -1,0 +1,68 @@
+/* CadastroPaciente.css */
+
+#containerDetalhesPaciente {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  max-width: 900px;
+  height: 100%;
+}
+
+/* Título com fonte maior */
+.titulo-principal {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#btn-enviar {
+  background: linear-gradient(45deg, #ff6600, #ff9900);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}
+
+#btn-enviar:hover {
+  background: linear-gradient(45deg, #e65c00, #ff7f00);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#btn-enviar:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#botaoVoltarDetalhes {
+  background: linear-gradient(45deg, #ff6600, #ff9900);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}
+
+#botaoVoltarDetalhes:hover {
+  background: linear-gradient(45deg, #e65c00, #ff7f00);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#botaoVoltarDetalhes:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

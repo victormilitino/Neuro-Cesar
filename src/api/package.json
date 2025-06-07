@@ -1,0 +1,10 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --watch api.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

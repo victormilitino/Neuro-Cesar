@@ -1,0 +1,87 @@
+/* TabelaComBusca.css */
+.search-box {
+  margin-bottom: 10px;
+
+  margin-right: 40px;
+
+}
+
+
+.table-dark {
+
+  --bs-table-bg: #f26522 !important;
+  --bs-table-border-color: #f26522 !important;
+  border-radius: 16px !important;
+  overflow-x: auto;
+  width: 300px;
+}
+
+.tablescroll {
+  overflow-y: auto !important;
+  max-height: 44rem !important;
+  overflow-x: hidden !important;
+  overflow-x: fixed !important;
+}
+
+.table {
+  --bs-table-hover-bg: #f264223b !important;
+
+}
+
+.tabelaPadrao .form-control {
+  width: 80%;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 30px;
+
+}
+
+.barraSuperior {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.tablescroll {
+  overflow-y: auto !important;
+  max-height: 44rem !important;
+  overflow-x: hidden !important;
+  overflow-x: fixed !important;
+}
+
+.table {
+  --bs-table-hover-bg: #f264223b !important;
+
+}
+
+.tabelaPadrao .form-control {
+  width: 90%;
+  margin-top: 10px;
+
+}
+
+.barraSuperior {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.barraSuperior button {
+  height: 35px !important;
+  background-color: #f26522;
+  border-color: #f26522;
+  margin-right: 20px;
+  margin-left: 20px;
+
+
+}
+
+.barraSuperior button:hover {
+  background-color: white;
+  color: #f26522;
+  border-color: #f26522;
+}

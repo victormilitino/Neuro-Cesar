@@ -1,0 +1,89 @@
+.container {
+  padding-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .input-barra {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 15px auto;
+}
+
+.input-barra input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 2px solid rgba(255, 100, 4, 0.827);
+  border-radius: 40px;
+  font-size: 15px;
+
+  padding: 20px 20px;
+}
+
+.input-barra input::placeholder {
+  color: #ff5e00;
+}
+
+.input-barra .icon {
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translatey(-50%);
+  color: #ff5e00;
+  font-size: 16px;
+}
+
+.container .recall-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 20px 0 20px;
+}
+
+.recall-forget label {
+  color: #ff5e00;
+  margin-right: 1em;
+}
+
+.recall-forget input {
+  margin-right: 5px;
+}
+.recall-forget a {
+  text-decoration: none;
+  color: #ff5e00;
+}
+
+.recall-forget a:hover {
+  text-decoration: underline;
+}
+.container button {
+  width: 100%;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #ff5e00;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.214);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  text-shadow: #f772054a 1px 1px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

@@ -1,0 +1,36 @@
+.SideBar {
+  width: 240px;
+  background-color: #f26522;
+  color: white;
+  padding-top: 20px;
+}
+
+.SideBar .nav-link {
+  color: white !important;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.SideBar .nav-link:hover {
+  background-color: white;
+  color: #f26522 !important;
+}
+
+.SideBar .nav-item.active .nav-link {
+  background-color: white;
+  color: #f26522 !important;
+}
+
+.logo {
+  width: 40%;
+  height: 40%;
+}
+
+.logout-link {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}

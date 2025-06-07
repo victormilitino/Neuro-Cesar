@@ -1,0 +1,32 @@
+.cor-valor-atendimentos-pendentes {
+  color: #F26522 !important;
+}
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f7f6e2 !important;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Container principal */
+.dashboard-header {
+  background: linear-gradient(135deg, #ff6002 0%, #ff8c02 100%);
+  color: #f7f6e2 !important;
+  padding: 15px 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.dashboard-container {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  color: #333;
+  background-color: #f7f6e2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+

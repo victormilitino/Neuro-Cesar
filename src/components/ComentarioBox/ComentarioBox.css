@@ -1,0 +1,48 @@
+.comentario-box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 0,49rem;
+  max-width: 900px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+
+}
+
+.comentario-textarea {
+  width: 850px;
+  height: 450px;
+  padding: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  text-align: start;
+  box-sizing: border-box;
+}
+
+.comentario-button {
+  background-color: #e67b10;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.comentario-button:hover {
+  background-color: #0056b3;
+}
+
+.comentario-lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.comentario-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
