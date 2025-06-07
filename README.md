@@ -18,6 +18,8 @@ A aplicação foi construída utilizando as tecnologias HTML, CSS, React e Boots
 
 ## Como Executar o Projeto
 
+## Método 1 - Executando Localmente
+
 ### 1. Clone o repositório
 
 ```bash
@@ -47,6 +49,12 @@ npm run dev
 ```bash
 json-server --watch src/api/api.json --port 3000
 ```
+
+## Método 2 - Acesso Online via Vercel
+
+Você também pode acessar o projeto diretamente, sem necessidade de instalação local:
+
+🔗 Acessar Aplicação Online
 
 ## Estrutura do Projeto
 
